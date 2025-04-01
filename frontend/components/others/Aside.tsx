@@ -1,5 +1,5 @@
 "use client";
-import React, { useState } from "react";
+import React from "react";
 import { IoAlert } from "react-icons/io5";
 import { FaGithub } from "react-icons/fa";
 import Link from "next/link";
@@ -26,11 +26,6 @@ const whomToFollow = [
 ];
 
 const Aside = () => {
-  const [active, setActive] = useState("home");
-
-  const handleClick = (name: string) => {
-    setActive(name);
-  };
 
   return (
     <nav className="flex justify-start items-start bg-transparent w-auto h-screen border-l border-zinc-700">
