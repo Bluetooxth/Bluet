@@ -1,6 +1,7 @@
 import React from "react";
 import Header from "@/components/others/Header";
 import Aside from "@/components/others/Aside";
+import HomeFeed from "@/components/home/HomeFeed";
 
 const Home = () => {
   return (
@@ -8,9 +9,7 @@ const Home = () => {
         <div className="flex flex-row justify-start items-start lg:container w-full h-full">
         <Header />
         <section className="flex-1 p-4 overflow-y-scroll">
-            <h1>
-                Welcome to the Home Page
-            </h1>
+            <HomeFeed />
         </section>
         <Aside />
         </div>
